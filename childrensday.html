@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>黏黏变身魔法棒</title>
+    <style type="text/css">
+			ul{
+			list-style-type: none; /*清除无序列表前的小点*/
+			width: auto;
+			height: 60px;
+			background: #ffffff;
+			margin: 0px;
+			padding-top: 1%;
+			padding-left: 25%;/*左边距，使li看起来在中间*/
+			/*position: relative;*/
+			text-align: center;
+		}
+	li{
+			float: left;
+			width: 130px;
+			height: 100%;
+			padding: 0px;
+			margin-right: 1%;  /*两个li之间的距离*/
+		}
+	a:link,a:visited{ /*鼠标未点击和点击过时的样式*/
+			display: block;
+			color: #FFFFFF;
+			background-color: #ffffff;
+			text-align: center;
+			line-height: 30px; /*li行高*/
+			padding: 10px;
+			text-decoration: none; /*去下划线*/
+		}
+	a:hover{ /*鼠标移动到点击位时的样式，active指点击过后的样式*/
+			background-color: #f111;
+		}
+
+	</style> 
+</head>
+<body>
+<!--  背景图片 -->
+    <div id="Layer1" style="position:fixed; left:0px; top:0px; width:100%; height:100%;opacity:0.8">
+    <img src="/Users/jakelu/Desktop/Code/fhwand1.0/resourse/html背景.jpg" width="100%" height="100%"/>
+    </div>
+<!--  导航栏 -->
+<div class="container">
+    <div class="header" id="header">
+	</div>
+    
+	<div class="nav">
+		<div class="col nav">
+			<ul class="pc-nav" id="fhwand-detail-nav">
+				<li>首页</li>
+				<li>记事本</li>
+				<li>错题本</li>
+				<li>348科目</li>
+				<li>题型挑战</li>
+				<li>SURPRISE</li>
+      		</ul>           			
+		</div>
+	</div>
+</div> 
+
+</body>
+</html>
